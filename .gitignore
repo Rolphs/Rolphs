@@ -1,2 +1,19 @@
 
 .DS_Store
+
+# Build artifacts
+build/
+dist/
+Execs/
+
+# Python cache
+__pycache__/
+
+# Log files
+*.log
+
+# User preferences
+preferences.json
+
+# PyInstaller spec files
+*.spec

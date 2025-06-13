@@ -1,3 +1,0 @@
-([('Etiquetas',
-   '/Users/raulmb/Documents/GitHub/Rolphs/dist/Etiquetas',
-   'EXECUTABLE')],)

@@ -1,3 +1,0 @@
-([('Etiquetas de Envío',
-   '/Users/raulmb/Downloads/etiquetas/Etiquetas de Envío',
-   'EXECUTABLE')],)

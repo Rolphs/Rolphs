@@ -55,3 +55,9 @@ EOF2
 touch notes.md
 
 echo "Experimento creado en: $dir"
+
+# Volver al directorio de experimentos y registrar el nuevo commit
+cd ..
+git add "$dir"
+git commit -m "Nuevo experimento inicializado: $dir"
+git push

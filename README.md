@@ -62,6 +62,11 @@ El código aquí dentro está en distintas fases:
 
 ---
 
+## Automatización
+
+El repositorio cuenta con un flujo de trabajo de GitHub Actions (`.github/workflows/python-package.yml`) que verifica la existencia de `README.md` en cada cambio. Si se añaden archivos `*.py`, instala y ejecuta `flake8` para aplicar un linting básico.
+
+
 ## Licencia
 
 Personal Lab License - Rolphs

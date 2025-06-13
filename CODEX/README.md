@@ -11,7 +11,7 @@ Este espacio dentro de `Rolphs` organiza los distintos flujos de trabajo de inve
 - **concepts/**  
   Notas conceptuales, ideas, hipótesis, modelos mentales y frameworks en construcción.
 
-- **experiments/**  
+- **experiments/**
   Prototipos iniciales, pruebas rápidas, código de exploración para validar ideas o construir MVPs.
 
 - **datasets/**  
@@ -25,6 +25,9 @@ Este espacio dentro de `Rolphs` organiza los distintos flujos de trabajo de inve
 
 - **tools/**
   Scripts utilitarios, funciones recurrentes, herramientas internas de apoyo.
+
+Todas estas carpetas pueden estar inicialmente vacías y solo contienen un
+archivo oculto `.gitkeep` para que Git las registre en el repositorio.
 
 Al ejecutar `./experiments/new_experiment.sh` se crea un nuevo experimento y se
 realiza un commit y push automáticamente. El script ahora usa `set -euo

@@ -23,8 +23,11 @@ Este espacio dentro de `Rolphs` organiza los distintos flujos de trabajo de inve
 - **notebooks/**  
   Jupyter notebooks para exploración de datos, modelos y análisis interactivos.
 
-- **tools/**  
+- **tools/**
   Scripts utilitarios, funciones recurrentes, herramientas internas de apoyo.
+
+Al ejecutar `./experiments/new_experiment.sh` se crea un nuevo experimento y se
+realiza un commit y push automáticamente.
 
 ---
 

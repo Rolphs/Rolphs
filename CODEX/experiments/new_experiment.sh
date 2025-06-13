@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 # Ir al directorio actual del script
 cd "$(dirname "$0")"
@@ -59,5 +60,17 @@ echo "Experimento creado en: $dir"
 # Volver al directorio de experimentos y registrar el nuevo commit
 cd ..
 git add "$dir"
-git commit -m "Nuevo experimento inicializado: $dir"
-git push
+if ! git commit -m "Nuevo experimento inicializado: $dir"; then
+  echo "Error: Falló el commit en Git." >&2
+  exit 1
+fi
+
+if git remote > /dev/null 2>&1; then
+  if ! git push; then
+    echo "Error: Falló el push. Verifique la configuración del remoto." >&2
+    exit 1
+  fi
+else
+  echo "Error: No hay remoto configurado. No se pudo hacer push." >&2
+  exit 1
+fi

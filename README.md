@@ -4,21 +4,14 @@ Este es mi laboratorio personal de exploración, donde combino curiosidad, intui
 
 No soy un gran programador — de hecho, rara vez escribo código sin ayuda — pero he aprendido a orquestar procesos, integrar tecnologías y liderar colaboraciones con desarrolladores, modelos de IA y equipos humanos para llevar proyectos a un nivel funcional, útil y estético.
 
-Aquí es donde ensayo formas de trabajo híbridas entre inteligencia humana, inteligencia artificial y sistemas colaborativos.
+Mi formación original viene de la comunicación y la investigación de mercados. Este laboratorio es el espacio donde exploro, experimento y aprendo sobre ingeniería de procesos, inteligencia artificial, herramientas creativas y automatización.
 
-## Presentación
+---
 
-Soy Rolphs, explorador y creador de procesos colaborativos centrados en la interacción entre humanos y máquinas. Mi formación proviene de la gestión de proyectos y la experimentación digital. Mis habilidades principales son:
+## Contacto
 
-- Integración de tecnologías emergentes.
-- Coordinación de equipos multidisciplinarios.
-- Prototipado rápido de ideas.
-- Documentación de flujos y metodologías.
-
-## Contacto profesional
-
-- **Correo**: rolphs@hey.com
-- **LinkedIn**: [linkedin.com/in/rolphs](https://www.linkedin.com/in/rolphs)
+- **Email**: raul.mercado.bustamante@gmail.com
+- **LinkedIn**: [linkedin.com/in/raulmb](https://www.linkedin.com/in/raulmb/)
 
 ---
 
@@ -55,7 +48,6 @@ Este espacio `Rolphs` es la cocina donde las ideas se ensucian primero:
 - 🛠️ Integración de tecnologías emergentes.
 - 🤝 Colaboración interdisciplinaria.
 - 🚀 Plataforma de despegue para proyectos en evolución.
-- 🌱 Punto de partida para futuros proyectos.
 
 ---
 
@@ -72,5 +64,5 @@ El código aquí dentro está en distintas fases:
 
 ## Licencia
 
-El contenido de este repositorio se distribuye bajo la licencia MIT.
-Los proyectos derivados pueden incluir sus propias licencias específicas.
+Este repositorio no es un paquete público ni un producto terminado.  
+Cada proyecto derivado tiene su propia licencia específica.

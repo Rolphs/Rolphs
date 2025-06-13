@@ -1,113 +1,49 @@
-# ZPL to PDF Converter
+# Rolphs
 
-## Descripción
+Repositorio raíz personal de desarrollo, prototipado y exploración de ideas.
 
-Este proyecto es una herramienta para convertir archivos de etiquetas en formato ZPL a archivos PDF. Además de la conversión, la herramienta optimiza las etiquetas ZPL para asegurarse de que se ajusten correctamente a un formato de etiqueta de 4x6 pulgadas con una resolución de 300 DPI. La herramienta también proporciona una interfaz gráfica de usuario (GUI) que permite a los usuarios seleccionar, procesar y guardar archivos ZPL, TXT o ZIP de forma intuitiva.
+Aquí es donde nacen, maduran y a veces se ramifican mis distintos proyectos de software, inteligencia artificial, experimentación simbólica y herramientas creativas.
 
-## Características
+---
 
-- **Conversión de ZPL a PDF**: Convierte etiquetas en formato ZPL a archivos PDF utilizables.
-- **Optimización de etiquetas**: Ajusta y optimiza las posiciones de los elementos ZPL para asegurar que se impriman correctamente en una etiqueta de 4x6 pulgadas.
-- **Interfaz gráfica**: GUI fácil de usar construida con `Tkinter`, que permite seleccionar archivos y configurar opciones de guardado.
-- **Soporte para múltiples archivos**: Procesa uno o varios archivos ZPL, TXT o ZIP.
-- **Aprendizaje no supervisado básico**: El programa sugiere nombres de archivos basados en patrones de guardado anteriores y mejora con el tiempo.
+## Proyectos independientes derivados
 
-## Requisitos del Sistema
+Algunos proyectos que comenzaron aquí ya cuentan con sus propios repositorios:
 
-- **Python 3.9+**
-- Paquetes Python requeridos (pueden ser instalados con `pip`):
+- [ZPL-to-PDF-Label](https://github.com/Rolphs/ZPL-to-PDF-Label): Conversor de etiquetas ZPL a PDF para facilitar visualización, pruebas y automatización sin necesidad de impresoras Zebra.
+- [Mimir](https://github.com/Rolphs/Mimir): Our Own Evolutionary AI. Framework exploratorio para desarrollo de IA adaptativa.
+- [Liberando-al-robot](https://github.com/Rolphs/Liberando-al-robot): Ingeniería inversa de procesos estratégicos y colaborativos para integrar LLMs de forma transparente.
+- [Liberando-al-Thetan](https://github.com/Rolphs/Liberando-al-Thetan): Desarme simbólico de la Cienciología; exploración colaborativa de transformación psíquica y ritual sin dogma.
+- [Cristify-STL](https://github.com/Rolphs/Cristify-STL): Toolkit visual para manipulación estética de modelos STL inspirado en las obras de Christo.
+- [OrcaSlicer](https://github.com/Rolphs/OrcaSlicer): (fork) Generador de G-code para impresión 3D (Bambu, Prusa, Voron, etc).
+- [K1_Max](https://github.com/Rolphs/K1_Max): (repositorio auxiliar relacionado a impresión 3D).
 
-  ```sh
-  pip install -r requirements.txt
-  ```
+---
 
-  El archivo `requirements.txt` debería contener:
+## Sobre este repositorio
 
-  ```
-  requests
-  easygui
-  tkinter
-  ```
+Este espacio `Rolphs` funciona como:
 
-## Estructura del Proyecto
+- 🧪 Laboratorio personal de exploración.
+- ⚙️ Banco de pruebas de herramientas emergentes.
+- 📦 Zona de staging de proyectos en etapa de gestación.
+- 🚀 Plataforma de lanzamiento para ideas que eventualmente escalan a proyectos independientes.
 
-```
-zpl_to_pdf/
-│
-├── main.py
-├── menu.py
-├── generate.py
-├── optimize.py
-├── utils/
-│   ├── file_manager.py
-│   ├── model_manager.py
-├── logger.py
-├── README.md
-└── icon.icns
-```
+---
 
-### Archivos y Directorios Clave
+## Estado
 
-- **main.py**: Archivo principal que inicia la aplicación y maneja la lógica principal.
-- **menu.py**: Gestiona la interfaz gráfica y la interacción del usuario.
-- **generate.py**: Gestiona la conversión de ZPL a PDF utilizando la API de Labelary.
-- **optimize.py**: Optimiza los archivos ZPL para que se ajusten correctamente a las etiquetas de 4x6 pulgadas.
-- **utils/file_manager.py**: Contiene funciones para la gestión de archivos, como la lectura de archivos ZPL y la extracción de ZIP.
-- **utils/model_manager.py**: Implementa el modelo de aprendizaje no supervisado para sugerir nombres de archivos.
-- **logger.py**: Configura y gestiona el registro de eventos (logging) en la aplicación.
-- **icon.icns**: Icono utilizado en la GUI de la aplicación.
+Código en distintas etapas de desarrollo convive aquí:
+- Prototipos experimentales.
+- Ideas en construcción.
+- Herramientas utilitarias internas.
+- Frameworks de integración.
 
-## Instalación y Ejecución
+---
 
-### 1. Clonar el repositorio
+## Licencia
 
-```sh
-git clone https://github.com/tuusuario/zpl_to_pdf.git
-cd zpl_to_pdf
-```
+Este repositorio no está diseñado como paquete de distribución pública directa.  
+Cada proyecto derivado tiene su propia licencia.
 
-### 2. Instalar dependencias
-
-```sh
-pip install -r requirements.txt
-```
-
-### 3. Ejecutar la aplicación
-
-```sh
-python main.py
-```
-
-## Compilación a un Ejecutable
-
-### En macOS
-
-Puedes compilar el proyecto en un ejecutable `.app` utilizando `PyInstaller`:
-
-```sh
-pyinstaller --onefile --windowed --icon=icon.icns main.py
-```
-
-### Cambiar el Icono de la Aplicación
-
-El icono de la aplicación está configurado en `icon.icns`. Puedes cambiarlo por cualquier icono que desees utilizando el comando anterior.
-
-## Uso de la Aplicación
-
-1. **Seleccionar Archivos**: Puedes seleccionar uno o varios archivos `.txt`, `.zpl` o `.zip` desde la interfaz gráfica.
-2. **Optimización y Conversión**: La aplicación optimizará automáticamente el contenido ZPL y lo convertirá a PDF.
-3. **Guardar Archivos**: La aplicación sugiere un nombre para el archivo de salida y permite seleccionar el directorio donde guardar el PDF.
-4. **Aprendizaje del Sistema**: Con cada archivo guardado, el sistema aprende y mejora las sugerencias de nombres y ubicaciones de guardado.
-
-## Notas Importantes
-
-- **Problemas conocidos**: Si los archivos ZPL no se optimizan correctamente, revisa la configuración de DPI y asegúrate de que los archivos ZPL originales no contengan errores que puedan dificultar la conversión.
-- **Errores de importación circular**: Se resolvieron los errores de importación circular estructurando adecuadamente el flujo de datos entre los diferentes módulos. Si encuentras problemas similares, revisa las importaciones.
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si encuentras un error o tienes una mejora, no dudes en crear un `pull request` o abrir un `issue`.
-
-## Créditos
-
-Este proyecto fue desarrollado con el objetivo de facilitar la gestión de etiquetas ZPL y su conversión a PDF. Agradecimientos especiales a Raúl Mercado por su colaboración y dedicación en la creación de este proyecto.
+---

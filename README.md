@@ -57,5 +57,5 @@ El código aquí dentro está en distintas fases:
 
 ## Licencia
 
-Este repositorio no es un paquete público ni un producto terminado.  
-Cada proyecto derivado tiene su propia licencia específica.
+El contenido de este repositorio se distribuye bajo la licencia MIT.
+Los proyectos derivados pueden incluir sus propias licencias específicas.

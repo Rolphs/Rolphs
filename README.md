@@ -64,5 +64,13 @@ El código aquí dentro está en distintas fases:
 
 ## Licencia
 
-Este repositorio no es un paquete público ni un producto terminado.  
-Cada proyecto derivado tiene su propia licencia específica.
+Personal Lab License - Rolphs
+
+Este repositorio es un entorno personal de desarrollo experimental. No está destinado a distribución pública como paquete de software completo.
+
+- El código, ideas, experimentos y prototipos aquí contenidos están en distintas etapas de desarrollo, prueba y documentación.
+- No se autoriza la redistribución, reutilización, modificación o explotación comercial de este repositorio en su conjunto sin autorización expresa del autor.
+- Los proyectos derivados que emergen de este laboratorio cuentan, en cada caso, con su propia licencia explícita según corresponda.
+
+Copyright (c) Raúl Mercado Bustamante
+

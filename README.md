@@ -6,6 +6,20 @@ No soy un gran programador — de hecho, rara vez escribo código sin ayuda — 
 
 Aquí es donde ensayo formas de trabajo híbridas entre inteligencia humana, inteligencia artificial y sistemas colaborativos.
 
+## Presentación
+
+Soy Rolphs, explorador y creador de procesos colaborativos centrados en la interacción entre humanos y máquinas. Mi formación proviene de la gestión de proyectos y la experimentación digital. Mis habilidades principales son:
+
+- Integración de tecnologías emergentes.
+- Coordinación de equipos multidisciplinarios.
+- Prototipado rápido de ideas.
+- Documentación de flujos y metodologías.
+
+## Contacto profesional
+
+- **Correo**: rolphs@hey.com
+- **LinkedIn**: [linkedin.com/in/rolphs](https://www.linkedin.com/in/rolphs)
+
 ---
 
 ## Proyectos derivados
@@ -41,6 +55,7 @@ Este espacio `Rolphs` es la cocina donde las ideas se ensucian primero:
 - 🛠️ Integración de tecnologías emergentes.
 - 🤝 Colaboración interdisciplinaria.
 - 🚀 Plataforma de despegue para proyectos en evolución.
+- 🌱 Punto de partida para futuros proyectos.
 
 ---
 

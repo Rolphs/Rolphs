@@ -27,7 +27,9 @@ Este espacio dentro de `Rolphs` organiza los distintos flujos de trabajo de inve
   Scripts utilitarios, funciones recurrentes, herramientas internas de apoyo.
 
 Al ejecutar `./experiments/new_experiment.sh` se crea un nuevo experimento y se
-realiza un commit y push automáticamente.
+realiza un commit y push automáticamente. El script ahora usa `set -euo
+pipefail` para detenerse ante cualquier error y muestra mensajes de ayuda si los
+comandos de Git fallan (por ejemplo, cuando no hay un remoto configurado).
 
 ---
 

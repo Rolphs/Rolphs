@@ -34,6 +34,21 @@ realiza un commit y push automáticamente. El script ahora usa `set -euo
 pipefail` para detenerse ante cualquier error y muestra mensajes de ayuda si los
 comandos de Git fallan (por ejemplo, cuando no hay un remoto configurado).
 
+### Ejemplo de uso
+
+```bash
+./experiments/new_experiment.sh
+```
+
+El script requiere tener un remoto configurado (por ejemplo `origin`) y realiza
+los siguientes pasos:
+
+1. **Creación de carpeta**: genera un directorio numerado con un `README.md` y
+   `notes.md` iniciales.
+2. **Commit automático**: registra la nueva carpeta en Git y crea un commit.
+3. **Push**: envía el commit al remoto configurado; en caso de no existir,
+   muestra un error y detiene la ejecución.
+
 ---
 
 ## Propósito

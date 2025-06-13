@@ -1,6 +1,21 @@
 #!/bin/bash
 set -euo pipefail
 
+# Procesar opciones
+NO_PUSH=false
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --no-push)
+      NO_PUSH=true
+      shift
+      ;;
+    *)
+      echo "Uso: $0 [--no-push]" >&2
+      exit 1
+      ;;
+  esac
+done
+
 # Ir al directorio actual del script
 cd "$(dirname "$0")"
 
@@ -65,12 +80,13 @@ if ! git commit -m "Nuevo experimento inicializado: $dir"; then
   exit 1
 fi
 
-if git remote > /dev/null 2>&1; then
-  if ! git push; then
-    echo "Error: Falló el push. Verifique la configuración del remoto." >&2
-    exit 1
+if [ "$NO_PUSH" = false ]; then
+  if git remote > /dev/null 2>&1; then
+    if ! git push; then
+      echo "Error: Falló el push. Verifique la configuración del remoto." >&2
+      exit 1
+    fi
+  else
+    echo "Aviso: No hay remoto configurado. No se hizo push." >&2
   fi
-else
-  echo "Error: No hay remoto configurado. No se pudo hacer push." >&2
-  exit 1
 fi

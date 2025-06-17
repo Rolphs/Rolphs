@@ -1,2 +1,21 @@
-
+# macOS system files
 .DS_Store
+
+# User-specific preferences
+preferences.json
+
+# Build artifacts
+build/
+dist/
+Execs/
+
+# Python cache
+__pycache__/
+
+# Log files
+*.log
+
+# PyInstaller spec files
+*.spec
+.idea/
+

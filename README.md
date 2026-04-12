@@ -4,7 +4,14 @@ Este es mi laboratorio personal de exploración, donde combino curiosidad, intui
 
 No soy un gran programador — de hecho, rara vez escribo código sin ayuda — pero he aprendido a orquestar procesos, integrar tecnologías y liderar colaboraciones con desarrolladores, modelos de IA y equipos humanos para llevar proyectos a un nivel funcional, útil y estético.
 
-Aquí es donde ensayo formas de trabajo híbridas entre inteligencia humana, inteligencia artificial y sistemas colaborativos.
+Mi formación original viene de la comunicación y la investigación de mercados. Este laboratorio es el espacio donde exploro, experimento y aprendo sobre ingeniería de procesos, inteligencia artificial, herramientas creativas y automatización.
+
+---
+
+## Contacto
+
+- **Email**: raul.mercado.bustamante@gmail.com
+- **LinkedIn**: [linkedin.com/in/raulmb](https://www.linkedin.com/in/raulmb/)
 
 ---
 
@@ -55,7 +62,20 @@ El código aquí dentro está en distintas fases:
 
 ---
 
+## Automatización
+
+El repositorio cuenta con un flujo de trabajo de GitHub Actions (`.github/workflows/python-package.yml`) que verifica la existencia de `README.md` en cada cambio. Si se añaden archivos `*.py`, instala y ejecuta `flake8` para aplicar un linting básico.
+
+
 ## Licencia
 
-Este repositorio no es un paquete público ni un producto terminado.  
-Cada proyecto derivado tiene su propia licencia específica.
+Personal Lab License - Rolphs
+
+Este repositorio es un entorno personal de desarrollo experimental. No está destinado a distribución pública como paquete de software completo.
+
+- El código, ideas, experimentos y prototipos aquí contenidos están en distintas etapas de desarrollo, prueba y documentación.
+- No se autoriza la redistribución, reutilización, modificación o explotación comercial de este repositorio en su conjunto sin autorización expresa del autor.
+- Los proyectos derivados que emergen de este laboratorio cuentan, en cada caso, con su propia licencia explícita según corresponda.
+
+Copyright (c) Raúl Mercado Bustamante
+

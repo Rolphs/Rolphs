@@ -32,7 +32,7 @@ teardown() {
 }
 
 @test "falla sin --no-push cuando no hay remoto" {
-  run bash new_experiment.sh <<< "Push"
+  run bash -c 'bash new_experiment.sh <<< "Push" 2>&1'
   assert_failure
   assert_output --partial "Error: Falló el push"
 }

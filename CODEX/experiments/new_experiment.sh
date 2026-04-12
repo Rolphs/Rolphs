@@ -20,7 +20,7 @@ done
 cd "$(dirname "$0")"
 
 # Buscar el último número de experimento
-last_num=$(ls -d exp* 2>/dev/null | sort | tail -n 1 | grep -o '[0-9]\+' | head -n 1)
+last_num=$(find . -maxdepth 1 -type d -name 'exp[0-9]*' | sort | tail -n 1 | grep -oE '[0-9]+' | head -n 1 || true)
 if [ -z "$last_num" ]; then
   next_num=1
 else
@@ -28,10 +28,10 @@ else
 fi
 
 # Formatear número a 3 dígitos
-exp_num=$(printf "%03d" $next_num)
+exp_num=$(printf "%03d" "$next_num")
 
 # Pedir nombre del experimento
-read -p "Nombre del experimento: " exp_name
+read -rp "Nombre del experimento: " exp_name
 
 # Limpiar nombre (espacios -> guiones bajos)
 clean_name=$(echo "$exp_name" | tr '[:upper:]' '[:lower:]' | sed 's/ /_/g')

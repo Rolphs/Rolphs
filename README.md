@@ -62,6 +62,21 @@ El código aquí dentro está en distintas fases:
 
 ---
 
+## Dependencias
+
+Algunas herramientas de este laboratorio tienen dependencias Python. Para instalarlas:
+
+```sh
+pip install -r requirements.txt
+```
+
+El archivo `requirements.txt` incluye:
+
+```
+requests
+tkinterdnd2
+```
+
 ## Automatización
 
 El repositorio cuenta con un flujo de trabajo de GitHub Actions (`.github/workflows/python-package.yml`) que verifica la existencia de `README.md` en cada cambio. Si se añaden archivos `*.py`, instala y ejecuta `flake8` para aplicar un linting básico.
